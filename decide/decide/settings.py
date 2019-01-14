@@ -162,5 +162,8 @@ except ImportError:
 INSTALLED_APPS = INSTALLED_APPS + MODULES
 
 BASEURL = "https://decide-adriancanton.gerokuapp.com"
+
+APIS = {}
+
 import django_heroku
 django_heroku.settings(locals())
